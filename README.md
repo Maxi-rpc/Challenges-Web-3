@@ -30,8 +30,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-bootstrap-9UNxypSqf)
+- Live Site URL: [Add live site URL here](https://maxi-rpc.github.io/Challenges-Web-3/)
 
 ## My process
 
