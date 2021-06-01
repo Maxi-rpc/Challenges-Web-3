@@ -1,0 +1,69 @@
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.name span {
+  font-weight: 400;
+  color: var(--Dark-gray);
+}
+
+.location {
+  color: var(--Dark-gray);
+}
+
+.state {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.head {
+  color: var(--Dark-gray);
+  letter-spacing: 1px;
+}
+
+.tarjeta {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.borde {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.avatar {
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.img-back {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svgs);
+  background-size: 500px, 500px;
+  background-position: -290px -250px, 160px 275px;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+  .location {
+    font-size: 0.7rem;
+  }
+
+  .head {
+    font-size: 0.7rem;
+  }
+}
